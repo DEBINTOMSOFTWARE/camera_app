@@ -8,13 +8,39 @@ class PhotosList extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Center(
-        child: Text(
-      "No Photos Added Yet.",
-      style: Theme.of(context)
-          .textTheme
-          .bodyLarge!
-          .copyWith(color: Theme.of(context).colorScheme.onBackground),
-    ));
+    if (photos.isEmpty) {
+      return Center(
+          child: Text(
+        "No Photos Added Yet.",
+        style: Theme.of(context)
+            .textTheme
+            .bodyLarge!
+            .copyWith(color: Theme.of(context).colorScheme.onBackground),
+      ));
+    }
+    return GridView.builder(
+      itemCount: photos.length,
+      gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+        crossAxisCount: 2,
+        crossAxisSpacing: 10.0,
+        mainAxisSpacing: 10.0,
+      ),
+      itemBuilder: (context, index) {
+        final photo = photos[index];
+        return GridTile(
+          footer: GridTileBar(
+            backgroundColor: Colors.black45,
+            title: Text(
+              photo.title,
+              textAlign: TextAlign.center,
+            ),
+          ),
+          child: Image(
+            image: FileImage(photo.image),
+            fit: BoxFit.cover,
+          ),
+        );
+      },
+    );
   }
 }
