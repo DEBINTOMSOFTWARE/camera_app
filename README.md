@@ -2,24 +2,26 @@ Camera App
 
 Project Description
 
-The Camera App is a Flutter application that allows users to view, capture, and manage photos. The app has three main screens:
-Photo Grid: Displays a grid view of all the photos saved in the local database.
-Take Photo: Provides a camera preview with a grid overlay, allowing users to capture new photos.
-Display Picture: Shows the captured photo in black and white and allows users to add a title before saving it to the local database.
+The Camera App is a Flutter application that allows users to view, capture, and manage photos. 
+
+The app has three main screens:
+1) Photo Grid: Displays a grid view of all the photos saved in the local database.
+2) Take Photo: Provides a camera preview with a grid overlay, allowing users to capture new photos.
+3) Display Picture: Shows the captured photo in black and white and allows users to add a title before saving it to the local database.
 
 Features
 
-Display photos in a grid view, fetched from the local database.
-Capture new photos using the device's camera.
-View the captured photo in black and white.
-Add a title to the captured photo before saving it to the local database.
-Implemented using clean code practices.
-Uses Riverpod as the state management library.
-Utilizes SQLite for local data storage.
-Leverages the camera library for capturing photos.
-Incorporates Google Fonts for a visually appealing UI.
-Includes widget tests for the app's widgets and screens.
-
+1) Display photos in a grid view, fetched from the local database.
+2) Capture new photos using the device's camera.
+3) View the captured photo in black and white.
+4) Add a title to the captured photo before saving it to the local database.
+5) Implemented using clean code practices.
+6) Uses Riverpod as the state management library.
+7) Utilizes SQLite for local data storage.
+8) Leverages the camera library for capturing photos.
+9) Incorporates Google Fonts for a visually appealing UI.
+10) Includes widget tests for the app's widgets and screens.
+   
 Assumptions
 The photos are fetched from the local database, and the app does not require an internet connection for the initial fetch.
 
