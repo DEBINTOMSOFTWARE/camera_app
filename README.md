@@ -12,7 +12,7 @@ The app has three main screens:
 Features
 
 1) Display photos in a grid view, fetched from the local database.
-2) Capture new photos using the device's camera.
+2) Capturing new photos using the device's camera, with a customizable grid overlay added to the camera preview.
 3) View the captured photo in black and white.
 4) Add a title to the captured photo before saving it to the local database.
 5) Implemented using clean code practices.
