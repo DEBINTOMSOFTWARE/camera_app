@@ -1,5 +1,4 @@
 import 'package:camera_app/core/presentation/components/ca_text.dart';
-import 'package:camera_app/main.dart';
 import 'package:camera_app/presentation/screens/take_photo.dart';
 import 'package:camera_app/presentation/widgets/photos_list.dart';
 import 'package:camera_app/provider/provider.dart';

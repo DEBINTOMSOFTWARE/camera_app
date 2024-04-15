@@ -58,9 +58,7 @@ class _OpenCameraState extends State<TakePhotoScreen> {
           ),
         ),
       );
-    } catch (e) {
-      print("Error: $e");
-    }
+    } catch (e) {}
   }
 
   @override

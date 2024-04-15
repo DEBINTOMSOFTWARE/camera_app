@@ -30,7 +30,7 @@ class CameraOverlay extends StatelessWidget {
                 return Container(
                   decoration: BoxDecoration(
                       border: Border.all(
-                          color: Colors.white.withOpacity(0.5), width: 1.0)),
+                          color: Colors.white.withOpacity(0.5), width: 0.5)),
                 );
               }),
             ),
