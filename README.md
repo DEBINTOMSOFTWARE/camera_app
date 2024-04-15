@@ -26,10 +26,10 @@ The photos are fetched from the local database, and the app does not require an 
 Usage
 
 1) Viewing Photos: 
-Upon launching the app, users will be presented with a grid view of all the photos saved in the local database. They can scroll through the grid to view the photos and their basic information.
+Upon launching the app, users will have a grid view of all the photos saved in the local database. They can scroll through the grid to view the photos and their basic information.
 
 2) Capturing a New Photo:
-To capture a new photo, users can tap the "Add Photo" button in the app bar.
+Users can tap the "Add Photo" button in the app bar to capture a new photo.
 This will navigate them to the "Take Photo" screen, where they can see the camera preview with a grid overlay.
 Users can then tap the floating button to capture the photo.
 
@@ -45,10 +45,12 @@ From the "Display Picture" screen, users can navigate back to the "Take Photo" s
 Known Issues
 
 The SQLite database insertion and fetching unit tests fail.
-The app has not been tested on an iPhone or iOS simulator due to a lack of Mac availability.
+Due to a lack of Mac availability, the app has not been tested on an iPhone or iOS simulator.
 
 Future Improvements
 
-Cloud Storage Integration: Integrate the app with a cloud storage service (e.g., Firebase) to allow users to save and fetch photos from the cloud.
-Authentication and Authorization: Implement user authentication and authorization features to provide a more secure and personalized experience.
-Delete Option: Add a feature to allow users to delete photos from the local database.
+1) Cloud Storage Integration: Integrate the app with a cloud storage service (e.g., Firebase) to allow users to save and fetch photos from the cloud.
+2) Authentication and Authorization: Implement user authentication and authorization features to provide a more secure and personalized experience.
+3) Delete Option: Add a feature to allow users to delete photos from the local database.
+
+
